@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 export default function HackaThon({ menus }: LayoutProps) {
     const router = useRouter();
-    const hackathonName = router.query.hackathonType;
+    const hackathonName:string = router.query.hackathonType as string;
     return (
         <Layout title={hackathonName} menus={menus}>
             <div className="container px-6 pb-10 mx-auto">
