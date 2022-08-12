@@ -1,5 +1,5 @@
 export function CustomFooter() {
     return (
-        <div className='layout_header'>Welcome to HackaThon</div>
+        <div className='layout_footer'>Welcome to HackaThon</div>
     );
 }
