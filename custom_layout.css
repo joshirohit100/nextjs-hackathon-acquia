@@ -3,6 +3,8 @@
     color: red;
     text-align: center;
     padding: 25px;
+    position: sticky;
+    top: 0;
 }
 
 .layout_footer {
@@ -10,4 +12,6 @@
     color: red;
     text-align: center;
     padding: 25px;
+    position: sticky;
+    bottom: 0;
 }
